@@ -1,0 +1,22 @@
+@media (max-width: 820px) {
+  .tablet {
+    margin-bottom: 25px;
+  }
+  .list-group-item {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .text-position {
+    text-align: center;
+    font-size: 18px;
+  }
+  .IN,
+  .OUT {
+    padding-bottom: 10px;
+  }
+  #time-icon i {
+    background-clip: content-box;
+    font-size: 48px;
+    color: rgb(159, 174, 255);
+  }
+}
